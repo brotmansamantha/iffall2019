@@ -7,7 +7,7 @@ p {
 }
 
 
-.see-all {
+div > .see-all  {
 	font-size: 0.8em; 
 	text-transform: uppercase;
 }
@@ -44,7 +44,7 @@ li div:first-of-type {
 	font-size: .8rem;
 }
 
-li div:last-of-type {
+li div:last-of-type(2) {
 	font-style:italic;
 	font-size: .8rem;
 	}
