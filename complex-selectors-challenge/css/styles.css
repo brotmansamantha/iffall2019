@@ -39,7 +39,7 @@ img {
 }
 
 
-li div:first-of-type {
+a > div:first-of-type {
 	font-weight: bold;
 	font-size: .8rem;
 }
@@ -54,7 +54,7 @@ li div:last-of-type(2) {
 }
 
 
- #game-of-thrones li:last-of-type:after {
+ #game-of-thrones li:nth-of-type(9):after {
 	content: "*";
 	}
 
