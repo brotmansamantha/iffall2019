@@ -1,0 +1,50 @@
+.section1 aside{
+	float: right;
+	display: inline-block;
+
+}
+
+.section2 aside {
+	z-index: 10;
+	position: absolute;
+	margin-top: 72px;
+	margin-left: 639px;
+
+}
+
+.section2 p {
+	z-index: 9;
+}
+
+
+.section3 aside {
+	background-color: green;
+	position: fixed;
+	z-index: 11;
+	top: 0px;
+	right: 0px;
+}
+
+.callout1 {
+	background-color:red;
+	left: 50%;
+	right: 50%;
+	position: absolute;
+	z-index: 20;
+	display: inline-block;
+
+
+}
+
+.callout2 {
+	background-color: black;
+	position: absolute;
+	z-index: 19; 
+	right: 50%;
+	left: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+
+
+}
