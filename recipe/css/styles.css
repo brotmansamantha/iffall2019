@@ -1,0 +1,143 @@
+html {
+	background-image: url("../images/pattern.jpg");
+	background-size: 500px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin:0px;
+}
+
+.section1 {
+	background-image: url("../images/loaf.jpg");
+	background-size: 375px;
+	padding-top:140px;
+	padding-bottom: 65px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	z-index: 20;
+}
+
+.section2 {
+	z-index: 25;
+	background-color: white;
+	border: .0005in solid gray;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+
+.section2text {
+	font-size: 11px;
+	text-align: center;
+	color: gray;
+	font-family: 'Montserrat', sans-serif;
+}
+
+i {
+	transform: scale(.8);
+	margin-bottom: 10px;
+}
+
+hr {
+	width: 280px;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Fira Code', monospace;
+	margin-bottom: 20px;
+	}
+
+.info {
+	font-size: 8px;
+	color: gray;
+	padding: 10px 72px;
+	column-count: 2;
+}
+
+strong {
+	color:black;
+	font-size: 9px;
+}
+
+.story {
+	font-size: 10px;
+	text-align: center;
+	padding: 0px 15px;
+	margin-bottom: 20px;
+	line-height: 15px;
+}
+
+.ingredients {
+	background-color: white;
+	border: .0005in solid gray;
+	width: 300px;
+	margin: 18px auto;
+	font-size: 10px;
+	line-height: 15px;
+	padding: 10px 25px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-size: 15px;
+	font-family: 'Fira Code', monospace;
+	padding: 5px 0px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+.directions {
+	background-color: white;
+	border: .0005in solid gray;
+	width: 300px;
+	margin: 18px auto;
+	/*margin-bottom: 0px;*/
+	font-size: 10px;
+	padding: 10px 25px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+ul {
+	margin:0px;
+	padding: 0px;
+}
+
+span {
+	font-weight: bold;	
+	background-color: #fbebec;
+	border-radius: 50%
+}
+
+.ingredientlist {
+	line-height:15px;
+	padding: 0px;
+	margin-top:0px;
+}
+
+#slice {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.eatup {
+	text-align:center;
+	font-size: 15px;
+	margin-bottom: 30px;
+	font-style: italic;
+	color: #4a6282;
+}
+
+footer {
+	margin: 18px auto;
+	font-size: 6px;
+	color: gray;
+	text-align:center;
+	margin-bottom: 0px;
+}
+
