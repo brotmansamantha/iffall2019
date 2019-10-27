@@ -28,7 +28,6 @@ body {
 	display:inline-block;
 	padding-left:5px;
 	padding:3px;
-
 }
 
 #btn_twitter {
@@ -83,14 +82,15 @@ h1 {
 	text-align: center;
 	font-size: 18px;
 	font-family: 'Fira Code', monospace;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 	}
 
 .info {
 	font-size: 10px;
 	color: gray;
-	padding: 10px 72px;
+	padding: 10px 70px;
 	column-count: 2;
+	text-align:center;
 }
 
 strong {
@@ -99,9 +99,9 @@ strong {
 }
 
 .story {
-	font-size: 10px;
+	font-size: 11px;
 	text-align: center;
-	padding: 0px 15px;
+	padding: 0px 20px;
 	margin-bottom: 20px;
 	line-height: 15px;
 }
