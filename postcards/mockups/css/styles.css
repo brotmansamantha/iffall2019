@@ -1,0 +1,33 @@
+#phil {
+	transform: scale(.75);
+	margin: 0px;
+	padding:0px;
+}
+
+#manny {
+	transform: scale(0.75);
+	margin: 0px;
+	padding: 0px;
+}
+
+#lily {
+	transform: scale(0.75);
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	margin-left: 175px;
+	margin-top: 50px;
+}
+
+h2 {
+	margin-left: 175px;
+	margin-bottom: 40px;
+}
+
+footer {
+	text-align: center;
+	margin-top: -40px;
+
+}
