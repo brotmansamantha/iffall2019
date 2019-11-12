@@ -1,0 +1,102 @@
+html {
+	background-image: url("../images/lily.jpg");
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	z-index: -10;
+}
+
+
+hr {
+	width: 20%;
+	margin-top: 15px;
+	padding: 0px;
+	margin-left: 0px;
+	border-color: #b084ce;
+	border-width: 2px;
+}
+
+div.speaker {
+	font-size: 16px;
+}
+
+div.lilytext {
+	font-family: 'Roboto Slab', serif;
+	font-size: 45px;
+	width: 40%;
+	margin-top: 9em;
+	margin-left: 6%;
+	color: white;
+	width: 30%;
+}
+
+span {
+	color: #b084ce;
+}
+
+
+
+@media ( max-width: 1450px ){
+	html {
+	background-position: right -275px center;
+	}
+
+}
+
+@media ( max-width: 1200px ){
+	html {
+	background-position: right -470px center;
+	}
+
+}
+
+
+@media ( max-width: 900px ){
+	html {
+	background-position: right -560px center;
+	}
+
+}
+
+@media ( max-width: 900px ){
+	div.lilytext {
+	font-size: 30px;
+	margin-top: 12em;
+	}
+
+}
+
+
+@media ( max-width: 700px ){
+	html {
+	background-position: right -700px center;
+	}
+
+}
+@media ( max-width: 700px ){
+	div.lilytext {
+	font-size: 25px;
+	margin-top: 16em;
+	margin-left: 6%;
+	}
+
+}
+
+@media ( max-width: 700px ){
+	div.speaker {
+	font-size: 12px;
+	width: 120%;
+
+	}
+
+}
+
+
+@media ( max-width: 700px ){
+	span {
+	color: white;
+
+	}
+
+}
