@@ -1,0 +1,113 @@
+html {
+	background-image: url("../images/phil.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	z-index: -10;
+}
+
+
+hr {
+	width: 20%;
+	margin-top: 15px;
+	padding: 0px;
+	margin-left: 0px;
+	border-color: #d89217;
+	border-width: 1.2px;
+
+}
+
+span {
+	color: #d89217;
+}
+
+div.speaker {
+	font-size: 16px;
+}
+
+div.philtext {
+	font-family: 'Roboto Slab', serif;
+	font-size: 35px;
+	width: 40%;
+	margin-top: 10em;
+	margin-left: 3%;
+	color: white;
+	width: 30%;
+}
+
+@media ( max-width: 1200px ){
+	html {
+	background-position:  left -200px center;
+	}
+
+}
+
+@media ( max-width: 1200px ){
+	div.philtext {
+	font-size: 25px;
+	margin-top: 15em;
+
+	}
+
+}
+
+
+@media ( max-width: 900px ){
+	html {
+	background-position:  left -300px center;
+	}
+
+}
+
+@media ( max-width: 900px ){
+	div.philtext {
+	font-size: 25px;
+	margin-top: 15em;
+
+	}
+
+}
+
+@media ( max-width: 900px ){
+	span {
+	color: white;
+
+	}
+
+}
+
+@media ( max-width: 700px ){
+	html {
+	background-position: left -480px center;
+
+	}
+
+}
+
+@media ( max-width: 700px ){
+	div.speaker {
+	font-size: 12px;
+
+	}
+
+}
+
+@media ( max-width: 700px ){
+	div.philtext {
+	font-size: 18px;
+	margin-top: 37em;
+	margin-left: 10%;
+	width: 50%;
+	}
+
+}
+
+@media ( max-width: 700px ){
+	span {
+	color: white;
+
+	}
+
+}
+
