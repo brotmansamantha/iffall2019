@@ -8,6 +8,10 @@ body {
 	margin:0px;
 }
 
+.info strong {
+	white-space: nowrap;
+}
+
 .section1 {
 	background-image: url("../images/loaf.jpg");
 	background-size: 375px;
