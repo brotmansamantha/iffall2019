@@ -1,0 +1,115 @@
+html {
+	background-color: #0c131b;
+}
+.navigation {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 26px;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+a:hover {
+	color: #a204df;
+}
+
+hr {
+	border-color: white;
+}
+
+
+a {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+}
+
+
+span {
+	color: #bfdc00;
+}
+
+.personallifetext {
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: inline-block;
+	z-index: 10;
+	margin-right: 50px;
+}
+
+div.personallifetext {
+	margin-top: 100px;
+	margin-left: 500px;
+	z-index: 10;
+	margin-top: -450px;
+}
+
+
+#image2 {
+	z-index: -10;
+	padding-top: 100px;
+
+}
+
+
+.one {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+}
+
+.two {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	
+}
+
+.three {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	
+}
+
+
+
+@media ( max-width: 770px ){
+	.navigation {
+	font-size: 18px; 
+
+}
+}
+
+
+@media ( max-width: 770px ){
+	a {
+	margin: 40px; 
+	
+}
+}
+
+@media ( max-width: 1200px ){
+	div.personallifetext{
+	margin-left: 50px;
+	margin-top: 30px;
+	
+	
+}
+}
+
+@media ( max-width: 1200px ){
+	.image2{
+	margin-top: -1000px;
+}
+}

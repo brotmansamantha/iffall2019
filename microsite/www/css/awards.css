@@ -1,0 +1,98 @@
+html {
+	background-image: url("../images/awards");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.navigation {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 26px;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+
+
+a:hover {
+	color: #a204df;
+	
+}
+
+
+
+a {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	border-color: white;
+}
+
+
+span {
+	color: #bfdc00;
+}
+
+div.awardstext {
+	color:white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	text-align: left;
+	width: 50%;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.one {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+}
+
+.two {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	
+}
+
+
+@media ( max-width: 770px ){
+	.navigation {
+	font-size: 18px; 
+
+}
+
+
+
+@media ( max-width: 770px ){
+	a {
+	margin: 40px; 
+	
+}
+}
+
+@media ( max-width: 2000px ){
+	div.awardstext {
+	width:85%; 
+	margin-left: 40px;
+	
+}
+}
+
+
+
+
+
