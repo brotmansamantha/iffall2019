@@ -122,8 +122,8 @@ div.awardstext {
 }
 
 @media ( max-width: 600px ){
-	a {
-	margin: 20px;
+	.navigation a {
+	margin: 10px;
 
 }
 }
