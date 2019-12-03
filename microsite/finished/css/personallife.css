@@ -1,0 +1,168 @@
+html {
+	background-color: #0c131b;
+}
+.navigation {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 26px;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.navigation a:hover {
+	color: #a204df;
+}
+
+hr {
+	border-color: white;
+}
+
+footer {
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 7%;
+	margin-left: 63%;
+	font-size: 12px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	margin: 0px;
+}
+
+footer a:hover {
+	color: #a204df;
+}
+
+.navigation a {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+}
+
+
+span {
+	color: #bfdc00;
+}
+
+.personallifetext {
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: inline-block;
+	z-index: 10;
+	margin-right: 50px;
+}
+
+div.personallifetext {
+	margin-top: 100px;
+	margin-left: 500px;
+	z-index: 10;
+	margin-top: -450px;
+}
+
+
+/*#image2 {
+	margin-top: 500px;
+}*/
+
+.one {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+}
+
+.two {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	
+}
+
+.three {
+	color: #bfdc00;
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	
+}
+
+
+
+@media ( max-width: 770px ){
+	.navigation {
+	font-size: 18px; 
+
+}
+}
+
+
+@media ( max-width: 770px ){
+	a {
+	margin: 40px; 
+	
+}
+}
+
+@media ( max-width: 1200px ){
+	div.personallifetext{
+	margin-left: 50px;
+	margin-top: 30px;
+	
+	
+}
+}
+
+@media ( max-width: 1200px ){
+	.image2{
+	margin-top: -1000px;
+}
+}
+
+@media ( max-width: 600px ){
+	.navigation {
+	font-size: 18px; 
+	margin-top: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	a {
+	margin: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	hr {
+	margin-top: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	footer {
+	text-align: center;
+	margin-left: 0px;
+	width: 90%;
+
+
+}
+
+@media ( max-width: 600px ){
+	#image2 {
+	margin-top: 500px;
+
+}

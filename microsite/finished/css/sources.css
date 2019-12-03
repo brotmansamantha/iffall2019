@@ -1,0 +1,94 @@
+html {
+	background-color: #02020c;
+}
+.navigation {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 26px;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.sources a{
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.sources a:hover {
+	color: #bfdc00;
+}
+
+#image {
+	margin-left: 700px;
+	margin-top: -200px;
+}
+
+div.sources {
+	margin-top: 250px;
+	margin-left: 200px;
+	font-size: 25px;
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.navigation a:hover {
+	color: #a204df;
+}
+
+footer {
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 10%;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: #a204df;
+}
+
+.navigation a {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	border-color: white;
+}
+
+
+
+@media ( max-width: 600px ){
+	.navigation {
+	font-size: 18px; 
+	margin-top: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	hr {
+	margin-top: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	a {
+	margin: 20px;
+
+}
+}

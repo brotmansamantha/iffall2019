@@ -1,0 +1,169 @@
+.navigation {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 26px;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+html {
+	background-color: #0c131b;
+
+}
+
+footer {
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 7%;
+	margin-left: 92px;
+	font-size: 12px;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+	margin: 0px;
+}
+
+footer a:hover{
+	color: #a204df;
+}
+
+.navigation a:hover {
+	color: #a204df
+}
+
+span {
+	color: #bfdc00;
+}
+
+.navigation a {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	border-color: white;
+}
+
+
+
+.earlylifetext {
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 92px;
+	font-size: 18px;
+	width: 85%;
+}
+
+#image1 {
+	display: inline-block;
+	margin: auto 0;
+	padding: 25px;
+	margin-top: 55px;
+	width: 42vw;
+}
+
+#image2 {
+	display: inline-block;
+	margin: auto 0;
+	padding: 25px;
+	margin-right: 40px;
+	margin-top: 55px;
+	width: 42vw;
+}
+
+div.images {
+	margin-left: 70px;
+}
+
+@media ( max-width: 770px ){
+	.navigation {
+	font-size: 18px; 
+
+}
+}
+
+
+@media ( max-width: 770px ){
+	a {
+	margin: 40px; 
+	
+}
+}
+
+/*@media ( max-width: 770px ){
+{
+	margin-left: 82px; 
+	width: 80%;
+	
+}
+}
+*/
+@media ( max-width: 1500px ){
+	#image1, #image2 {
+	width: 33vw;
+	
+}
+}
+
+@media ( max-width: 770px ){
+	#image1, #image2 {
+	padding: 10px;	
+}
+}
+
+@media ( max-width: 770px ){
+	div.earlylifetext{
+		margin-left: 80px;
+		width: 80%;
+
+	}
+}
+
+@media ( max-width: 600px ){
+	#image1, #image2 {
+	padding: 2px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	#image1{
+	margin-left: -20px;
+}
+}
+
+@media ( max-width: 600px ){
+	div.earlylifetext {
+	margin-left: 50px;
+	width: 75%;
+}
+}
+
+
+@media ( max-width: 600px ){
+	.navigation {
+	font-size: 18px; 
+	margin-top: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	a {
+	margin: 20px;
+
+}
+}
+@media ( max-width: 600px ){
+	hr {
+	margin-top: 20px;
+
+}
+}

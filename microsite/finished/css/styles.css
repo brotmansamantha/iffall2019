@@ -1,0 +1,160 @@
+html {
+	background-image: url("../images/cover");
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+
+}
+
+.navigation {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 26px;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+footer {
+	color: white;
+	font-family: brandon-grotesque,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 315px;
+	margin-left: 63%;
+	font-size: 12px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: #bfdc00;
+}
+.navigation a:hover {
+	color: #a204df;
+}
+
+hr {
+	border-color: white;
+}
+
+
+
+.navigation a {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+}
+
+
+span {
+	color: #bfdc00;
+}
+
+.liluzi{
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	z-index: 20;
+	color: white;
+	font-size: 100px;
+	margin-left: 60%;
+	margin-top: 14%;
+}
+
+div.covertext {
+	font-family: almaq-rough,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	width: 30%;
+	margin-left: 61%;
+	margin-top: 10px;
+	color: #bfdc00;
+	line-height: 25px;
+}
+
+
+@media ( max-width: 770px ){
+	html {
+	background-position:  -480px ;
+
+	}
+
+}
+
+@media ( max-width: 770px ){
+	.liluzi {
+	font-size: 80px; 
+	line-height: 80px;
+	margin-top: 150px;
+
+	}
+
+}
+
+@media ( max-width: 770px ){
+	div.covertext {
+	font-size: 16px; 
+	width: 36%;
+}
+
+}
+
+@media ( max-width: 770px ){
+	.navigation {
+	font-size: 18px; 
+
+}
+
+
+@media ( max-width: 770px ){
+	a {
+	margin: 40px; 
+	
+}
+}
+
+@media ( max-width: 600px ){
+	.navigation {
+	font-size: 18px; 
+	margin-top: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	a {
+	margin: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	hr {
+	margin-top: 20px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	.liluzi {
+	margin-left: 140px;
+
+}
+}
+
+@media ( max-width: 600px ){
+	div.covertext {
+	margin-left: 210px;
+	text-align: right;
+	width: 40%;
+
+}
+}
+
+
