@@ -1,0 +1,111 @@
+
+header {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+div {
+	display: block;
+}
+
+p {
+	display: block;
+    margin-block-start: 1.3em;
+    margin-block-end: 1em;
+}
+
+.projects {
+	text-align: center;
+	margin-top: 75px;
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 15px;
+}
+
+#img_buttons{
+	width: 300px;
+}
+
+#img_recipe{
+/*	width: 300px;*/
+	height: 300px;
+
+}
+
+#img_postcard{
+	width: 300px;
+}
+
+#img_microsite{
+	width: 300px;
+}
+
+div.project_buttons {
+	border: 1px solid gray;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	overflow: hidden;
+	box-sizing: border box;
+	text-align: center;
+}
+
+div.project_recipe {
+	border: 1px solid gray;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	overflow: hidden;
+	box-sizing: border box;
+	text-align: center;
+}
+
+div.project_postcard {
+	border: 1px solid gray;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	overflow: hidden;
+	box-sizing: border box;
+	text-align: center;
+}
+
+
+div.project_microsite {
+	border: 1px solid gray;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	overflow: hidden;
+	box-sizing: border box;
+	text-align: center;
+}
+
+div.project_microsite:hover {
+	background-color: lightgray;
+	opacity: 40%;
+}
+
+div.project_recipe:hover {
+	background-color: lightgray;
+	opacity: 40%;
+}
+
+div.project_postcard:hover {
+	background-color: lightgray;
+	opacity: 40%;
+}
+
+div.project_buttons:hover {
+	background-color: lightgray;
+	opacity: 40%;
+}
+
